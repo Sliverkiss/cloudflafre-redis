@@ -14,8 +14,8 @@ import { Redis } from '@upstash/redis/cloudflare';
 const app = new Hono();
 
 const redis = new Redis({
-	url: 'https://sweeping-kitten-14437.upstash.io',
-	token: 'AThlAAIjcDFmYWZiMjk4ZDk1NzE0MTNmYTkyZTVjOGRjNTM2ZTM1OXAxMA',
+	url: '',
+	token: '',
 })
 
 //读取所有键
